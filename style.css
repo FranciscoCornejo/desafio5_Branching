@@ -1,31 +1,38 @@
-body {
+body 
+{
   background: #342E37;
-  }
+}
 
-.container {
-  padding-top: 30px;
+.container 
+{
+  padding-top: 0px;
+  padding-bottom: 10px;
 } 
   
-h1 {
+h1 
+{
   color: #fff;
   font-family: 'Space Mono', monospace;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   font-weight: 300;
 }
   
-img {
+img 
+{
   max-width: 40%;
   padding: 20px;
   display: block;
-  margin: 0 auto;
+  margin: 10px auto 0;
 }
 
-form {
+form 
+{
   padding: 30px;
 }
   
-.btn {
+.btn 
+{
   outline: none;
   border: none;
   cursor: pointer;
@@ -33,12 +40,13 @@ form {
   position: relative;
   background-color: #676264;
   padding: 20px 80px;
-  margin: 0 auto;
+  margin: 20px auto;
   border-radius: 20px;
   box-shadow: 0 6px #2E282A;
 }
   
-.btn a {
+.btn a 
+{
     color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
@@ -46,6 +54,7 @@ form {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 2px;
+  margin-bottom: 10px;
 }
 
 .btn:hover {
